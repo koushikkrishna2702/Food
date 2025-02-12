@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="logo-removebg-preview.png">
+  <title>Hungriee</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="logo">Hungiree</div>
+    <button id="menu-toggle" class="menu-toggle">☰</button>
+    
+    <nav class="nav-links" id="nav-links">
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Cart Icon -->
+    <div class="cart">
+      <button id="cart-btn">
+        🛒 <span id="cart-count"><a>0</a></span>
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="home" id="home">
+        <!-- <h1>S.store<b> కి స్వాగతం</b>एस.स्टोर <b>में आपका स्वागत है</b>S.store <b>க்கு வரவேற்கிறோம்</b>S.store <b>ಗೆ ಸ್ವಾಗತ</b>S.store <b>में राउर स्वागत बा</b></h1> -->
+      <!-- <h1><b>Welcome to</b> S.store</h1>
+
+      <button href="#products" class="nav-link">Explore Items</button> -->
+      <section class="grid">
+        <div class="content">
+            <div class="content-left">
+                <section id="home">
+                <div class="info">  
+                    <h2>Order Your <br>Food Anytime</h2>
+                    <p>Hungriee?We're here to help!<br>Discover new flavors,from local eateries to popular chains.<br>
+                    Order now,and indulge in foodie's paradise!</p>
+                </div>
+                <button class="nav-link" href="#menu">Explore Food</button>
+            </section>
+            </div>
+            <div class="content-right">
+                <img src="bomma-.png" alt="">
+                
+            </div>
+        </div>
+    </section>
+    </section>
+    <section id="menu"class="menu">
+      <h1>Menu</h1>
+      <section class="category">
+        <div class="list-items">
+               <h3>Popular Dishes</h3>
+            <div class="card-list">
+                <div class="card">
+                   <img src="biryani.png" alt=""> 
+                   <div class="food-title">
+                    <h1> Chicken Biriyani</h1>
+                   </div>
+                   <div class="desc-food">
+                    <p>Chicken biryani is a flavorful dish of long-grain rice, marinated meat, and spices that originated in Persia and is popular in South Asia.</p>
+                   </div>
+                   <div class="price">
+                    <span>₹249.00</span><span><i class='bx bxs-plus-circle'></i></span>
+                   </div>
+                   <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="cm.png" alt=""> 
+                    <div class="food-title">
+                     <h1> Chicken Manchurian</h1>
+                    </div>
+                    <div class="desc-food">
+                     <p> Chicken manchurian is a popular Indo chinese food made of fried chicken in manchurian sauce.</p>
+                    </div>
+                    <div class="price">
+                     <span>₹129.00</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="cfr.png" alt=""> 
+                    <div class="food-title">
+                     <h1> Chicken Rice</h1>
+                    </div>
+                    <div class="desc-food">
+                     <p>Chicken fried rice made in Indo Chinese style. Simple, <br>easy to make & delicious fried rice made with tender chicken, <br>soya sauce vinegar</p>
+                    </div>
+                    <div class="price">
+                     <span>₹129.00</span><span><i class='bx bxs-plus-circle'></i></span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="vb.png" alt=""> 
+                    <div class="food-title">
+                     <h1> Veg Biriyani</h1>
+                    </div>
+                    <div class="desc-food">
+                     <p>Vegetable Biryani is an aromatic rice dish made with basmati rice, mix veggies, herbs & biryani spices Veg Biryani is a crowd pleaser!</p>
+                    </div>
+                    <div class="price">
+                     <span>₹179.00</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="paneer.png" alt=""> 
+                    <div class="food-title">
+                     <h1> Paneer Butter Masala</h1>
+                    </div>
+                    <div class="desc-food">
+                     <p>Paneer Butter Masala, is a rich & creamy curry made with <br>paneer, spices, onions, tomatoes, cashews and butter.</p>
+                    </div>
+                    <div class="price">
+                     <span>₹159.00</span><span><i class='bx bxs-plus-circle'></i></span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="tand.png" alt=""> 
+                    <div class="food-title">
+                     <h1> Tandoori Roti</h1>
+                    </div>
+                    <div class="desc-food">
+                     <p> A traditional and tasty north indian flatbread recipe made with wheat flour<br> using tawa on a top gas stove.</p>
+                    </div>
+                    <div class="price">
+                     <span>₹15.00</span><span><i class='bx bxs-plus-circle'></i></span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="veg man.png" alt=""> 
+                    <div class="food-title">
+                     <h1> Veg Manchurian</h1>
+                    </div>
+                    <div class="desc-food">
+                     <p>Veg Manchurian which is sirecipe, mply crispy fried mixed vegetable balls in a gravy or sauce.</p>
+                    </div>
+                    <div class="price">
+                     <span>₹99.00</span><span><i class='bx bxs-plus-circle'></i></span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="bc.png" alt=""> 
+                    <div class="food-title">
+                     <h1>Butter Chicken</h1>
+                    </div>
+                    <div class="desc-food">
+                     <p>It is a type of curry made from chicken with a spiced tomato and butter (makhan) sauce,known as tecture.</p>
+                    </div>
+                    <div class="price">
+                     <span>₹199.00</span><span><i class='bx bxs-plus-circle'></i></span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    <section id="services"class="services">
+      <h1>Services</h1>
+      <p>Welcome to the Services section.</p>
+      
+      <button class="add-to-cart">Add to Cart</button>
+    </section>
+  </main>
+  <footer>
+    <section id="contact" class="contact">
+      <h1>Contact</h1>
+      <!-- <p>Welcome to the Contact section.</p> -->
+        <div class="icons">
+          <a href="https://www.facebook.com/koushikkrishnapuppala"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/mr.koushik_7/"><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://github.com/koushikkrishna2702"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="footernav">
+          <ul style="list-style: none;">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#menu" class="nav-link">Menu</a></li>
+            <li><a href="">Help Center</a></li>
+            <li><a href="">Legal Notice</a></li>
+            <li><a href="">Terms of use</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Report Vulnerabilities</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+          </ul>
+        </div>
+        <div class="footerdes">
+          <p>© 2025 <b href="#home" class="nav-link" style="cursor: pointer;">Hungriee <b><a>, Inc.</a></p>
+        </div>
+    </section>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
